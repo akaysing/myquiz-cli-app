@@ -25,7 +25,20 @@ var quizQuestions = [{
 {
   question: 'Whats my favorite superhero?',
   answer: 'batman'
-}];
+},
+{
+  question: 'Whats my favorite football team?',
+  answer: 'manchester united'
+},
+{
+  question: 'Whats my favorite sportsperson?',
+  answer: 'michael jordan'
+},
+{
+  question: 'Whats my favorite food?',
+  answer: 'ramen'
+}
+];
 
 for (var i = 0; i < quizQuestions.length; i++) {
   var currentQuizQuestion = quizQuestions[i];
